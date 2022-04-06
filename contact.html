@@ -1,0 +1,49 @@
+<style>
+    .contact{
+      font-weight: 700;
+      background-color: rgb(8, 240, 0);border-radius: 5px;
+    }
+    .contact:hover{
+      background-color: rgb(165, 72, 5);color:rgb(8, 240, 0);transition: all .25s;
+    }
+    button .btn{
+        padding: 0% !important;
+    }
+    .modal-footer{
+        padding-left: 0% !important;
+    }
+  </style>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img class="d-block w-100"
+            src="images/contact.jpg"
+            width="100%" height="600px" alt="First slide">
+        <div class="carousel-caption d-none d-md-block a1">
+            <h4 class="welcome">Contact Us</h4>
+            <h3 class="name">Keep In Touch And Stay With Us</h3>
+            <p class="p p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid mt-5 mycontact">
+        <div class="mt-5" style="width: 50%;" >
+            <h1 class="name" style="width: 100%;text-align: center;">Contact Us</h1>
+        <form name="myform" onsubmit="return validateForm()">
+            <div class="form-group mt-5">
+                <input type="text" class="form-control" id="fname"  placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="lname" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control"  id="exampleInputEmail1"
+                    aria-describedby="emailHelp" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea type="text" class="form-control"  id="exampleFormControlTextarea1" rows="5" style="resize: none;"
+                    placeholder="What's On Your Mind?"></textarea>
+            </div>
+            <input type="submit" value="submit" class="btn"  >
+        </form>
+    </div>
+</div>
